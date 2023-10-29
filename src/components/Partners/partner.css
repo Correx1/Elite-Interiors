@@ -1,0 +1,15 @@
+
+.partners {
+  padding: 0px ;
+}
+
+.partners .owl-item {
+  text-align: center;
+  cursor: pointer;
+}
+
+.partners .partner-item img {
+  max-width: 50px;
+  margin: auto;
+}
+

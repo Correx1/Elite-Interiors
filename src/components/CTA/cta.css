@@ -1,0 +1,56 @@
+.cta{
+    transform: translatey(-50%);
+}
+
+.cta .row{  
+ background: #111;
+    padding: 15px;
+    border-radius: 5px;
+      
+}
+
+.content{
+    border: 1px solid #bbb;
+    padding: 20px;
+    gap: 5.5rem;
+    display: flex;
+}
+.content h3{
+  font-size: 1.4em;
+}
+
+
+@media(max-width:993px){
+
+.content{
+display: block;
+  padding: 10px;
+    gap: 0rem;
+ 
+}
+.content h3{
+font-size: 1rem;
+ 
+}
+}
+@media(max-width:600px){
+    .cta{
+    margin: 10px !important;
+}
+
+.content{
+display: block;
+  padding: 4px;
+    gap: 0rem;
+ 
+}
+.content h3{
+font-size: .7rem;
+}
+
+.btnnn {
+
+  font-size: 12px;
+
+}
+}
